@@ -1,0 +1,65 @@
+.add{
+    background: #61dafb;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    border:  1px solid rgba(0 ,0 ,0, .2);
+    box-shadow: 0 0 10px rgba(0,0,0, .4);
+    outline: none;
+}
+
+.add:hover{
+    cursor: pointer;
+    background: linear-gradient(0.35turn, #61dafb, ghostwhite, #61dafb);
+}
+
+.red,
+.green,
+.blue,
+.yellow,
+.purple,
+.coral,
+.orange{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.red{
+    border: 2px solid red;
+    background: darkred;
+}
+
+.green{
+    border: 2px solid green;
+    background: lightgreen;
+}
+
+.blue{
+    border: 2px solid blue;
+    background: lightskyblue;
+}
+
+.yellow{
+    border: 2px solid yellow;
+    background: lightyellow;
+}
+
+.purple{
+    border: 2px solid purple;
+    background: mediumpurple;
+}
+
+.coral{
+    border: 2px solid coral;
+    background: lightcoral;
+}
+
+.orange{
+    border: 2px solid orange;
+    background: darkorange;
+}
