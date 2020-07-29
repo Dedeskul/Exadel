@@ -18,6 +18,17 @@ function Circle(_tray) {
     this.element = null;
 }
 
+
+class Circle {
+    constructor(_tray) {
+        this.tray = _tray;
+        this.borderColor = null;
+        this.textColor = null;
+        this.backgroundColor = null;
+        this.element = null;
+    }
+}
+
 Circle.prototype.addNewElementToDom = function (clickedElement) {
     this.element = this.tray.appendChild(document.createElement('div'));
     this.borderColor = this.getUniqueColor('','');
