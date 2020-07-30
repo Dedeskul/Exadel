@@ -18,6 +18,7 @@ function Circle(_tray) {
     this.element = null;
 }
 
+
 Circle.prototype.addNewElementToDom = function (clickedElement) {
     this.element = this.tray.appendChild(document.createElement('div'));
     this.borderColor = this.getUniqueColor('','');
