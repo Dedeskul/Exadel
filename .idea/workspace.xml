@@ -22,9 +22,8 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/circle" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:ES6_implementation" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -36,6 +35,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fOajxHlwUVKenwjyPtfGGJWTBo" />
@@ -85,7 +89,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/circle" />
+                        <option value="ES6_implementation" />
                       </list>
                     </value>
                   </entry>
@@ -115,6 +119,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596098700193" />
+    <state x="741" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596104253249">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="741" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596104253249" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596093176078">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
