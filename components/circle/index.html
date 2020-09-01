@@ -7,12 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Mulish:ital,wght@0,300;1,400&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-<button id="add" onclick="setCirclesToTray()">ADD</button>
+
 <div id="tray"></div>
 
+<div class="controlPanel">
+    <button id="add">Start</button>
+</div>
+
+<template id="template">
+    <div class="circle">
+        <div class="borderTop"></div>
+        <div class="borderBottom"></div>
+        <div class="borderRightTop"></div>
+        <div class="borderRightBottom"></div>
+        <div class="borderLeftTop"></div>
+        <div class="borderLeftBottom"></div>
+        <div class="dashBorder"></div>
+    </div>
+</template>
+
+<template id="modalTemplate">
+    <div class="modal">
+        <h3></h3>
+        <p></p>
+        <p></p>
+    </div>
+</template>
+
 <script src="index.js"></script>
+<script src="../scoreField/scoreField.js"></script>
+<script src="../modalWindow/modalWindow.js"></script>
+<script src="../collection/collection.js"></script>
 </body>
 </html>
 
